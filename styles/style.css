@@ -73,3 +73,58 @@ h1 {
 	padding: 6px 25px;
 	border-radius: 6px;
 }
+.information-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+h2 {
+	font-size: 36px;
+	font-weight: 900;
+	color: #1f2937;
+}
+
+.items-container {
+	display: flex;
+	justify-content: center;
+	gap: 50px;
+}
+.img {
+	border: 4px solid #3882f6;
+	border-radius: 10px;
+	background-color: #3882f6;
+	height: 250px;
+	width: 250px;
+}
+.img-info {
+	width: 250px;
+	text-align: center;
+}
+
+.quote-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 36px;
+	font-weight: 400;
+	font-style: italic;
+	text-align: justify;
+	text-justify: inter-word;
+	background-color: #e5e7eb;
+}
+.call-to-action {
+	display: flex;
+	color: #e5e7eb;
+	background-color: #3882f6;
+	border-radius: 5px;
+	margin: 100px 200px;
+	padding: 30px 200px;
+	align-items: center;
+}
+
+.call-to-action .hero-sign-up {
+	border: 2px solid #e5e7eb;
+}
