@@ -1,130 +1,62 @@
-* {
-	font-family: 'Roboto', sans-serif;
-}
-
 body {
+	font-family: 'Roboto', sans-serif;
 	margin: 0;
 }
 
-.header {
+.first-section {
+	display: flex;
+	flex-flow: column nowrap;
+	background-color: #1f2937;
+	padding: 10px 300px 100px 300px;
+}
+
+nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-color: #1f2937;
-	padding: 0 200px;
 }
-
-.header-logo {
+.header-logo a {
 	font-size: 24px;
-}
-
-.header-links {
-	display: flex;
-	font-size: 18px;
-	list-style: none;
-	gap: 20px;
-}
-
-a:link {
-	color: #e5e7eb;
+	font-weight: 900;
+	color: #f9faf8;
 	text-decoration: none;
 }
 
-a:visited {
-	color: #e5e7eb;
+.header-links a {
+	font-size: 18px;
+	color: #f9faf8;
+	text-decoration: none;
+	padding-left: 20px;
 }
 
-a:focus {
-	color: #e5e7eb;
-}
-
-a:hover {
-	color: hsl(220, 13%, 75%);
-}
-a:active {
-	color: #e5e7eb;
-}
-
-.hero {
+.main-section {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
-	background-color: #1f2937;
-	padding: 100px 200px;
-	gap: 80px;
+	padding-top: 100px;
 }
-.hero-left {
+
+.description {
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
+	padding-right: 200px;
 }
+
 h1 {
 	font-size: 48px;
 	font-weight: 900;
 	color: #f9faf8;
+	margin: 0;
 }
-.hero-left p {
+.description p {
 	font-size: 18px;
 	color: #e5e7eb;
 }
-
-.hero-sign-up {
-	background-color: #3882f6;
-	width: 53px;
-	padding: 6px 25px;
-	border-radius: 6px;
-}
-.information-section {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
-h2 {
-	font-size: 36px;
-	font-weight: 900;
-	color: #1f2937;
-}
-
-.items-container {
-	display: flex;
-	justify-content: center;
-	gap: 50px;
-}
-.img {
-	border: 4px solid #3882f6;
-	border-radius: 10px;
-	background-color: #3882f6;
-	height: 250px;
-	width: 250px;
-}
-.img-info {
-	width: 250px;
-	text-align: center;
-}
-
-.quote-section {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	font-size: 36px;
-	font-weight: 400;
-	font-style: italic;
-	text-align: justify;
-	text-justify: inter-word;
-	background-color: #e5e7eb;
-}
-.call-to-action {
-	display: flex;
+.description a {
 	color: #e5e7eb;
 	background-color: #3882f6;
+	align-self: flex-start;
+	padding: 5px 25px;
 	border-radius: 5px;
-	margin: 100px 200px;
-	padding: 30px 200px;
-	align-items: center;
-}
-
-.call-to-action .hero-sign-up {
-	border: 2px solid #e5e7eb;
+	text-decoration: none;
 }
